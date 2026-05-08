@@ -1,0 +1,25 @@
+# Terminal Optimizer Dependencies
+# Python 3.9+ required
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Excel file handling
+openpyxl>=3.1.0
+
+# Configuration
+pyyaml>=6.0
+
+# Date/time handling (included in standard library but listed for documentation)
+# datetime - standard library
+# typing - standard library
+python-dateutil>=2.8.0
+typing-extensions>=4.5.0
+
+# Testing (development only)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Optional: For Markov chain calculations (numpy is sufficient for basic matrix operations)
+scipy>=1.11.0  # Uncomment if advanced statistical functions needed
